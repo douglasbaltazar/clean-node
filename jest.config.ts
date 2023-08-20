@@ -11,6 +11,7 @@ const config: Config = {
     '!<rootDir>/src/**/**/*protocols.ts',
     '!<rootDir>/src/**/protocols/*.ts',
     '!<rootDir>/src/**/**/**/*-protocols.ts',
+    '!<rootDir>/src/main/**'
   ],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
