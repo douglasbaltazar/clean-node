@@ -17,7 +17,8 @@ const config: Config = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  testMatch: ['**/*.test.ts']
+  testMatch: ['**/*.test.ts'],
+  preset: '@shelf/jest-mongodb'
 }
 
 export default config
