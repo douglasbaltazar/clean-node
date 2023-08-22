@@ -22,7 +22,7 @@ describe('SignUp Routes', () => {
       .post('/api/signup')
       .send({
         name: 'Douglas',
-        email: 'douglasbaltazar1@gmail.com',
+        email: 'any_email@gmail.com',
         password: '123',
         passwordConfirmation: '123'
       })
